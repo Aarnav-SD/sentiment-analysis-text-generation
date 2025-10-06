@@ -1,5 +1,5 @@
 # Internship assessment task
-
+#### NOTE: Deployment may not be possible due to the usage of a local llm that cannot be pushed onto github
 ## Methodology
 1. Used streamlit for frontend UI
 2. Used the ollama LLM `gemma3:4b`
