@@ -10,20 +10,20 @@
 
 ## Setup
 #### 1. Setup Ollama for local LLM
-i. install ollama from <https://ollama.com> and run the setup
-ii. verify installation in command prompt/terminal with `ollama`
+i. install ollama from <https://ollama.com> and run the setup  
+ii. verify installation in command prompt/terminal with `ollama`  
 #### 2. Install the llm locally
-do the following to install the required llm locally:
-`ollama pull gemma3:4b` (takes about 3.3GB of space)
-verify the installation of the model by `ollama list`, gemma3:4b should show up
+do the following to install the required llm locally:  
+`ollama pull gemma3:4b` (takes about 3.3GB of space)  
+verify the installation of the model by `ollama list`, gemma3:4b should show up  
 #### 3. Setup dependencies
-i. `cd <project location>`
-ii. create a virtual environment (optional but recommended)
-create like this: `python -m venv .venv`
-activate like this: `.venv\Scripts\activate` (for windows)
-iii. install dependencies using `pip install -r requirements.txt`
-iv. before running the app, make sure the model is running, run the model via `ollama run gemma3:4b`
-v. run the frontend app using `streamlit run app.py`
+i. `cd <project location>`  
+ii. create a virtual environment (optional but recommended)  
+create like this: `python -m venv .venv`  
+activate like this: `.venv\Scripts\activate` (for windows)  
+iii. install dependencies using `pip install -r requirements.txt`  
+iv. before running the app, make sure the model is running, run the model via `ollama run gemma3:4b`  
+v. run the frontend app using `streamlit run app.py`  
 
 ## App Guide
 1. The app consists of one input field where the user should input the text of which the sentiment is to be analyzed (make sure to press enter upon entering the text to make sure the input text field has received the input)
